@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Minimalism | Quiz</title>
+        <link href="./images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <link href="./styles.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body class="text-center text-white">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand navbar-dark">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse justify-content-center" id="navbar-list">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-sm-3 pt-3">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-sm-3 pt-3">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item px-sm-3 pt-3">
+                            <a class="nav-link" href="./styles.html">Styles</a>
+                        </li>
+                        <li class="nav-item px-sm-3 pt-3">
+                            <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Quiz</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content-->
+        <main class="page-wrap shadow-lg pt-3 col-sm-7">
+            <!-- Quiz Description-->
+            <h1>Pop quiz time!</h1>
+            <p class="pt-3"> This quiz is based on the content from the previous pages.</p>
+            <p class="pb-4">Please select the correct answer for each question, then click on the submit button to see you final score.</p>
+            <hr class="mx-auto w-75">
+
+            <!-- Question 1 -->
+            <section class="my-5 text-start">
+                <p>What is the type of minimalism that focuses on your own personal being that's mindful and clutter-free?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion1" id="incorrectAnswer" value="option1">
+                    <label class="form-check-label" for="incorrectAnswer">
+                        Essentialist
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion1" id="incorrectAnswer" value="option2">
+                    <label class="form-check-label" for="incorrectAnswer">
+                        Enoughist
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion1" id="incorrectAnswer" value="option3">
+                    <label class="form-check-label" for="incorrectAnswer">
+                        Eco-minimalist
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion1" id="correctAnswer1" value="option4">
+                    <label class="form-check-label" for="correctAnswer1">
+                        Soul Minimalist
+                    </label>
+                </div>
+            </section>
+
+            <!-- Question 2 -->
+            <section class="my-5 text-start">
+                <p>Which option is the least important aspect of minimalism? Choose the answer that doesn't match.</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion2" id="incorrectAnswer" value="option1">
+                    <label class="form-check-label" for="incorrectAnswer">
+                        Avoiding excessiveness
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion2" id="correctAnswer2" value="option2">
+                    <label class="form-check-label" for="correctAnswer2">
+                        Complex forms
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion2" id="incorrectAnswer" value="option3">
+                    <label class="form-check-label" for="incorrectAnswer">
+                        Monochromatic environment
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion2" id="incorrectAnswer" value="option4">
+                    <label class="form-check-label" for="incorrectAnswer">
+                        Essential simplicity
+                    </label>
+                </div>
+            </section>
+
+            <!-- Question 3 -->
+            <section class="my-5 text-start">
+                <p>When nature is put before individual benefit, what type of minimalism is being referred to?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion3" id="incorrectAnswer" value="option1">
+                    <label class="form-check-label" for="incorrectAnswer">
+                        Soul Minimalist
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion3" id="incorrectAnswer" value="option2">
+                    <label class="form-check-label" for="incorrectAnswer">
+                        Enoughist
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion3" id="correctAnswer3" value="option3">
+                    <label class="form-check-label" for="correctAnswer3">
+                        Eco-minimalist
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="answerRadioQuestion3" id="incorrectAnswer" value="option4">
+                    <label class="form-check-label" for="incorrectAnswer">
+                        Essentialist
+                    </label>
+                </div>
+            </section>
+
+            <!-- Quiz Results -->
+            <div class="d-flex justify-content-evenly mb-5">
+                <input class="btn btn-dark" type="submit" id="resultBtn" value="Submit">
+                <input class="btn btn-dark" type="submit" id="refreshBtn" value="Reset Quiz">
+            </div>
+            <p id="resultScore"></p>
+            <p id="wrongAnswers"></p>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <section class="container mt-5">
+                <hr class="mx-auto w-75">
+                <p class="mx-auto text-muted pe-none col-lg-12">Created by Dircelis</p>
+            </section>
+        </footer>
+
+        <!-- JS Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>

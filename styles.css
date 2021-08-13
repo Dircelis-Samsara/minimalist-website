@@ -1,0 +1,39 @@
+body { 
+	background: url(./images/index_background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.nav-item:hover {
+    color: white;
+    background-color: gray;
+}
+
+
+.page-wrap {
+    position: relative;  
+    margin: 30px auto;
+    margin-bottom: 125px;
+    padding: 20px;
+    background-color: #22222288;
+    color: cornsilk;
+}
+
+
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    clear: both;
+}
+
+
+.footer-index {
+    position: absolute; 
+    bottom: 0; 
+    height: 105px;
+}
